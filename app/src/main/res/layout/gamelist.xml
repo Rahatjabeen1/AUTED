@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    style="@style/groupStylegray_101"
+    tools:context=".gamelist">
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button"
+        android:layout_width="75dp"
+        android:layout_height="62dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="17dp"
+        android:background="@drawable/img_arrowlbl" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button1"
+        style="@style/txtInterextrabold32"
+        android:layout_width="199dp"
+        android:layout_height="115dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="156dp"
+        android:layout_marginEnd="376dp"
+        android:layout_marginBottom="205dp"
+        android:background="#FFDE59"
+        android:text="FINE MOTOR" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button2"
+        style="@style/txtInterextrabold32"
+        android:layout_width="189dp"
+        android:layout_height="111dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="421dp"
+        android:layout_marginEnd="121dp"
+        android:layout_marginBottom="201dp"
+        android:background="#DBCADF"
+        android:text="QUIZ GAME" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button3"
+        style="@style/txtInterextrabold32"
+        android:layout_width="194dp"
+        android:layout_height="107dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="419dp"
+        android:layout_marginEnd="118dp"
+        android:layout_marginBottom="82dp"
+        android:background="#FFA9A8"
+        android:text="MEMORY GAME" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button4"
+        style="@style/txtInterextrabold32"
+        android:layout_width="208dp"
+        android:layout_height="107dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="154dp"
+        android:layout_marginTop="-120dp"
+        android:layout_marginEnd="369dp"
+        android:layout_marginBottom="82dp"
+        android:background="#A5CBEE"
+        android:text="RHYME GAME" />
+
+    <ImageView
+        android:id="@+id/imageBottomleft"
+        android:layout_width="244dp"
+        android:layout_height="115dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="-9dp"
+        android:src="@drawable/img_bottomleft" />
+
+    <ImageView
+        android:id="@+id/imageBottomright"
+        android:layout_width="172dp"
+        android:layout_height="152dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="-32dp"
+        android:layout_marginBottom="0dp"
+        android:src="@drawable/img_bottomright" />
+
+    <ImageView
+        android:id="@+id/imageLogo"
+        android:layout_width="@dimen/_100pxh"
+        android:layout_height="@dimen/_100pxh"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="3dp"
+        android:src="@drawable/img_logo_150x150" />
+</RelativeLayout>

@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    style="@style/groupStylegray_101">
+
+    <ImageView
+        android:layout_width="110dp"
+        android:layout_height="101dp"
+        android:layout_marginStart="-18dp"
+        android:src="@drawable/img_topleft"/>
+
+
+    <RelativeLayout
+        android:layout_width="576dp"
+        android:layout_height="80dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="70dp"
+        android:layout_marginBottom="320dp">
+
+        <TextView
+            android:id="@+id/stdId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:text="Id"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/firstname"
+            android:layout_width="120dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_toEndOf="@+id/stdId"
+            android:text="First Name"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/lastname"
+            android:layout_width="120dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_toEndOf="@+id/firstname"
+            android:text="Last Name"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="104dp"
+        android:layout_height="107dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="315dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="299dp"
+        android:background="@drawable/img_logo" />
+
+    <LinearLayout
+        android:layout_width="599dp"
+        android:layout_height="195dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="99dp"
+        android:layout_marginBottom="131dp">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/stdlist"
+            android:layout_width="550dp"
+            android:layout_height="171dp"
+            android:layout_marginTop="20dp"
+            android:scrollbars="vertical" />
+    </LinearLayout>
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/startactivity"
+        style="@style/btnSolid"
+        android:layout_width="208dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="top|end"
+        android:layout_marginStart="373dp"
+        android:layout_marginTop="297dp"
+        android:layout_marginEnd="110dp"
+        android:layout_marginBottom="12dp"
+        android:gravity="center"
+        android:paddingStart="@dimen/_30pxh"
+        android:paddingTop="@dimen/_11pxv"
+        android:paddingEnd="@dimen/_30pxh"
+        android:paddingBottom="@dimen/_11pxv"
+        android:singleLine="true"
+        android:text="@string/lbl_start_activity"
+        android:textAllCaps="false"
+        android:textSize="@dimen/_20pxh" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/appCompatButton"
+        style="@style/btnSolid"
+        android:layout_width="wrap_content"
+        android:layout_height="106dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="top|end"
+        android:layout_marginStart="97dp"
+        android:layout_marginTop="292dp"
+        android:layout_marginEnd="426dp"
+        android:layout_marginBottom="12dp"
+        android:gravity="center"
+        android:paddingStart="@dimen/_30pxh"
+        android:paddingTop="@dimen/_11pxv"
+        android:paddingEnd="@dimen/_30pxh"
+        android:paddingBottom="@dimen/_11pxv"
+        android:singleLine="true"
+        android:text="ADD STUDENT"
+        android:textAllCaps="false"
+        android:textSize="@dimen/_20sp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/logout"
+        style="@style/btnSolid"
+        android:layout_width="91dp"
+        android:layout_height="75dp"
+        android:layout_marginStart="640dp"
+        android:layout_marginTop="120dp"
+        android:background="#C7DDF3"
+        android:text="LOG OUT"
+        android:textColor="#EDE8E8" />
+
+</RelativeLayout>

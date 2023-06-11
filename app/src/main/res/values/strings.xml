@@ -1,0 +1,98 @@
+<resources>
+    <string name="app_name">AUTED</string>
+
+    <string name="hyperlink"> <a href="https://rahatjabeen1.github.io/memory-game/">LETS GO</a></string>
+    <string name="HY"> <a href="https://rahatjabeen1.github.io/animal-game/">LETS GO</a></string>
+    <string name="HYP"> <a href="https://rahatjabeen1.github.io/number_game/">LETS GO</a></string>
+    <string name="loading">Loading…</string>
+    <string name="no_internet_connection">No internet connection!</string>
+    <string name="lbl_last_name2">last name</string>
+    <string name="msg_which_one_of_th">WHICH ONE OF THIS IS A SCHOOL?</string>
+    <string name="msg_confirm_passwor">CONFIRM PASSWORD</string>
+    <string name="msg_hospital_instit">HOSPITAL/INSTITUTE NAME</string>
+    <string name="msg_please_and_than">PLEASE AND
+THANK YOU</string>
+    <string name="lbl_confirm">CONFIRM</string>
+    <string name="msg_develop_social">DEVELOP SOCIAL SKILLS</string>
+    <string name="lbl_date_of_birth">DATE OF BIRTH</string>
+    <string name="lbl_first_name">FIRST NAME</string>
+    <string name="msg_select_rhyme_to">SELECT RHYME TO PLAY</string>
+    <string name="msg_which_girl_is">WHICH GIRL IS  TOUCHING HER HAIR?</string>
+    <string name="msg_which_girl_is2">WHICH GIRL IS  TOUCHING HER EYE?</string>
+    <string name="lbl_female">FEMALE</string>
+    <string name="lbl_new_password">NEW PASSWORD</string>
+    <string name="lbl_first_name2">first name</string>
+    <string name="lbl_email2">email</string>
+    <string name="msg_what_i_do_in_h">WHAT I DO IN
+HE MORNING </string>
+    <string name="lbl_password2">password</string>
+    <string name="lbl_fine_motor">FINE
+MOTOR</string>
+    <string name="msg_what_do_you_say2">WHAT DO YOU SAY WHEN YOU GET SOMETHING YOU WANT?</string>
+    <string name="lbl_xxxxxx">xxxxxx</string>
+    <string name="msg_choose_game_to">CHOOSE GAME TO PLAY</string>
+    <string name="msg_confirm_passwor2">confirm password</string>
+    <string name="msg_have_an_account">HAVE AN ACCOUNT ALREADY? </string>
+    <string name="msg_improve_cogniti">IMPROVE COGNITIVE SKILLS</string>
+    <string name="lbl_get_started">GET STARTED</string>
+    <string name="lbl_sign_up">SIGN UP!</string>
+    <string name="lbl_male">MALE</string>
+    <string name="msg_which_one_is_th">WHICH ONE IS THE BOAT</string>
+    <string name="msg_forgot_password">FORGOT PASSWORD?</string>
+    <string name="lbl_new_password2">new password</string>
+    <string name="msg_find_the_animal">FIND THE ANIMAL PAIR</string>
+    <string name="msg_head_shoulder_k">HEAD SHOULDER
+KNEES AND TOES</string>
+    <string name="lbl_month">MONTH</string>
+    <string name="lbl_username">username</string>
+    <string name="msg_progress_tracki">PROGRESS TRACKING</string>
+    <string name="msg_row_row_row">ROW, ROW, ROW
+YOUR BOAT</string>
+    <string name="msg_play_games_gai">PLAY GAMES, GAIN REWARD</string>
+    <string name="msg_select_the_body">SELECT THE BODYSCRUB</string>
+    <string name="lbl_rhyme_game">RHYME GAME</string>
+    <string name="lbl_select_player_2">SELECT PLAYER 2</string>
+    <string name="msg_what_do_you_use">WHAT DO YOU USE TO WASH YOUR BODY?</string>
+    <string name="msg_which_boy_is_t">WHICH BOY IS  TOUCHING HIS EARS?</string>
+    <string name="lbl_date">DATE</string>
+    <string name="lbl_email">EMAIL</string>
+    <string name="msg_find_the_animal2">FIND THE ANIMAL-PAW PAIR</string>
+    <string name="lbl_year">YEAR</string>
+    <string name="lbl_last_name">LAST NAME</string>
+    <string name="lbl_gender">GENDER</string>
+    <string name="msg_select_the_bath">SELECT THE BATHTUB</string>
+    <string name="msg_can_you_spot_th">CAN YOU SPOT THE KIDS GETTING ON THE BUS?</string>
+    <string name="msg_pair_the_same_f">PAIR THE SAME FRUIT/VEG</string>
+    <string name="msg_student_patient">STUDENT/PATIENT ID</string>
+    <string name="lbl_memory_game">MEMORY GAME</string>
+    <string name="lbl_player">PLAYER:</string>
+    <string name="msg_find_the_boy_sh">FIND THE BOY SHOWERING?</string>
+    <string name="lbl_activity">ACTIVITY: </string>
+    <string name="lbl_login">LOGIN</string>
+    <string name="msg_find_the_boy_br">FIND THE BOY BRUSHING TEETH?</string>
+    <string name="msg_which_kid_is_p">WHICH KID IS  POINTING THEIR KNEE?</string>
+    <string name="lbl_add_student">ADD STUDENT</string>
+    <string name="msg_what_do_you_say">WHAT DO YOU SAY WHEN YOU WANT SOMETHING?</string>
+    <string name="msg_make_table_with">MAKE TABLE WITH PATENT/STUDENT ID, NAME, AGE, GENDER, CLASS</string>
+    <string name="lbl_lets_go">LETS GO!</string>
+    <string name="lbl_bath_song">BATH SONG </string>
+    <string name="lbl_start_activity">START ACTIVITY</string>
+    <string name="lbl_username2">USERNAME</string>
+    <string name="msg_which_boy_is_t2">WHICH BOY IS  TOUCHING HIS HEAD?</string>
+    <string name="msg_which_kid_is_p2">WHICH KID IS  POINTING THEIR FEET?</string>
+    <string name="lbl_add">ADD</string>
+    <string name="lbl_play_now">PLAY NOW!</string>
+    <string name="lbl_password">PASSWORD</string>
+    <string name="lbl_signup2">SIGNUP</string>
+    <string name="msg_match_the_alpha">MATCH THE ALPHABETS</string>
+    <string name="lbl_student_name">Student name</string>
+    <string name="msg_pair_the_same_a">PAIR THE SAME ANIMAL</string>
+    <string name="lbl_a_is_for">A IS FOR...</string>
+    <string name="lbl_quiz_game">QUIZ GAME</string>
+    <string name="lbl_institute_name">institute name</string>
+    <string name="msg_please_enter_valid_text">Please enter valid text</string>
+    <string name="msg_please_enter_valid_email">Please enter valid email</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="title_activity_maps2">MapsActivity2</string>
+    <string name="title_activity_maps_activityt">MapsActivityt</string>
+</resources>

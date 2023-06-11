@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/img_logo_150x150"
+        android:label="AutEd"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AUTED"
+        tools:targetApi="31" >
+
+        <!--
+             TODO: Before you run your application, you need a Google Maps API key.
+
+             To get one, follow the directions here:
+
+                https://developers.google.com/maps/documentation/android-sdk/get-api-key
+
+             Once you have your API key (it starts with "AIza"), define a new property in your
+             project's local.properties file (e.g. MAPS_API_KEY=Aiza...), and replace the
+             "YOUR_API_KEY" string in this file with "${MAPS_API_KEY}".
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="YOUR_API_KEY" />
+
+<!--        <activity-->
+<!--            android:name=".motor"-->
+<!--            android:exported="true"-->
+<!--            android:screenOrientation="landscape" />-->
+<!--        <activity-->
+<!--            android:name=".QuizResults"-->
+<!--            android:exported="true"-->
+<!--            android:screenOrientation="landscape" />-->
+<!--        <activity-->
+<!--            android:name=".QuizActivity"-->
+<!--            android:exported="true"-->
+<!--            android:screenOrientation="landscape" />-->
+<!--        <activity-->
+<!--            android:name=".QuestionsList"-->
+<!--            android:exported="true"-->
+<!--            android:screenOrientation="landscape" />-->
+<!--        <activity-->
+<!--            android:name=".QuestionsBank"-->
+<!--            android:exported="true"-->
+<!--            android:screenOrientation="landscape" />-->
+<!--        <activity-->
+<!--            android:name=".MainActivity"-->
+<!--            android:exported="true"-->
+<!--            android:screenOrientation="landscape" />-->
+<!--        <activity-->
+<!--            android:name=".MainActivity2"-->
+<!--            android:exported="true"-->
+<!--            android:screenOrientation="landscape" />-->
+<!--        <activity-->
+<!--            android:name=".mainactivityanimal"-->
+<!--            android:exported="true"-->
+<!--            android:screenOrientation="landscape" />-->
+<!--        <activity-->
+<!--            android:name=".numbergame"-->
+<!--            android:exported="true"-->
+<!--            android:screenOrientation="landscape" />-->
+<!--        <activity-->
+<!--            android:name=".animalgame"-->
+<!--            android:exported="true"-->
+<!--            android:screenOrientation="landscape" />-->
+<!--        <activity-->
+<!--            android:name=".a_is_for_web"-->
+<!--            android:exported="true"-->
+<!--            android:screenOrientation="landscape" />-->
+<!--        <activity-->
+<!--            android:name=".memory"-->
+<!--            android:exported="true"-->
+<!--            android:screenOrientation="landscape" />-->
+<!--        <activity-->
+<!--            android:name=".bath_song"-->
+<!--            android:exported="true"-->
+<!--            android:screenOrientation="landscape" />-->
+<!--        <activity-->
+<!--            android:name=".bathingsong"-->
+<!--            android:exported="true"-->
+<!--            android:screenOrientation="landscape" />-->
+<!--        <activity-->
+<!--            android:name=".boat"-->
+<!--            android:exported="true"-->
+<!--            android:screenOrientation="landscape" />-->
+<!--        <activity-->
+<!--            android:name=".bodybrush"-->
+<!--            android:exported="true"-->
+<!--            android:screenOrientation="landscape" />-->
+<!--        <activity-->
+<!--            android:name=".brushing"-->
+<!--            android:exported="true"-->
+<!--            android:screenOrientation="landscape" />-->
+<!--        <activity-->
+<!--            android:name=".bus"-->
+<!--            android:exported="true"-->
+<!--            android:screenOrientation="landscape" />-->
+<!--        <activity-->
+<!--            android:name=".ear"-->
+<!--            android:exported="true"-->
+<!--            android:screenOrientation="landscape" />-->
+<!--        <activity-->
+<!--            android:name=".eyes"-->
+<!--            android:exported="true"-->
+<!--            android:screenOrientation="landscape" />-->
+<!--        <activity-->
+<!--            android:name=".feet"-->
+<!--            android:exported="true"-->
+<!--            android:screenOrientation="landscape" />-->
+<!--        <activity-->
+<!--            android:name=".hair"-->
+<!--            android:exported="true"-->
+<!--            android:screenOrientation="landscape" />-->
+<!--        <activity-->
+<!--            android:name=".head"-->
+<!--            android:exported="true"-->
+<!--            android:screenOrientation="landscape" />-->
+<!--        <activity-->
+<!--            android:name=".head_shoulder_knee_song"-->
+<!--            android:exported="true"-->
+<!--            android:screenOrientation="landscape" />-->
+<!--        <activity-->
+<!--            android:name=".headshoulder"-->
+<!--            android:exported="true" />-->
+<!--        <activity-->
+<!--            android:name=".knee"-->
+<!--            android:exported="true"-->
+<!--            android:screenOrientation="landscape" />-->
+<!--        <activity-->
+<!--            android:name=".please"-->
+<!--            android:exported="true"-->
+<!--            android:screenOrientation="landscape" />-->
+<!--        <activity-->
+<!--            android:name=".row_song"-->
+<!--            android:exported="true"-->
+<!--            android:screenOrientation="landscape" />-->
+<!--        <activity-->
+<!--            android:name=".rowyourboat"-->
+<!--            android:exported="true"-->
+<!--            android:screenOrientation="landscape" />-->
+<!--        <activity-->
+<!--            android:name=".school"-->
+<!--            android:exported="true"-->
+<!--            android:screenOrientation="landscape" />-->
+<!--        <activity-->
+<!--            android:name=".showering"-->
+<!--            android:exported="true"-->
+<!--            android:screenOrientation="landscape" />-->
+<!--        <activity-->
+<!--            android:name=".soap"-->
+<!--            android:exported="true"-->
+<!--            android:screenOrientation="landscape" />-->
+<!--        <activity-->
+<!--            android:name=".thank_you"-->
+<!--            android:exported="true"-->
+<!--            android:screenOrientation="landscape" />-->
+<!--        <activity-->
+<!--            android:name=".thank_you_song"-->
+<!--            android:exported="true"-->
+<!--            android:screenOrientation="landscape" />-->
+<!--        <activity-->
+<!--            android:name=".thankyouplz"-->
+<!--            android:exported="true"-->
+<!--            android:screenOrientation="landscape" />-->
+<!--        <activity-->
+<!--            android:name=".tub"-->
+<!--            android:exported="true"-->
+<!--            android:screenOrientation="landscape" />-->
+<!--        <activity-->
+<!--            android:name=".what_i_do_song"-->
+<!--            android:exported="true"-->
+<!--            android:screenOrientation="landscape" />-->
+<!--        <activity-->
+<!--            android:name=".whatido"-->
+<!--            android:exported="true"-->
+<!--            android:screenOrientation="landscape" />-->
+        <activity
+            android:name=".gamelist"
+            android:exported="true"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".welcomScreen"
+            android:exported="true"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".StudentInfo"
+            android:exported="true"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".forgetPassword"
+            android:exported="true"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".SignUp"
+            android:exported="true"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".demoscreefour"
+            android:exported="true"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".demoscreenthree"
+            android:exported="true"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".demoscreenone"
+            android:exported="true"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".demoscreentwo"
+            android:exported="true"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Login"
+            android:exported="true"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".SplashScreen"
+            android:exported="true"
+            android:screenOrientation="landscape">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
